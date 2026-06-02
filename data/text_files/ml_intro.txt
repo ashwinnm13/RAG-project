@@ -1,0 +1,42 @@
+Machine Learning Overview
+
+1. Definition:
+   Machine Learning (ML) is a subset of Artificial Intelligence (AI) that enables systems to learn patterns from data and improve performance without explicit programming.
+
+2. Types of ML:
+   - Supervised Learning: Models trained on labeled data (e.g., regression, classification).
+   - Unsupervised Learning: Models discover hidden patterns in unlabeled data (e.g., clustering, dimensionality reduction).
+   - Reinforcement Learning: Agents learn by interacting with an environment using rewards and penalties.
+
+3. Key Concepts:
+   - Dataset: Collection of examples used for training/testing.
+   - Features: Input variables describing data.
+   - Labels: Target outputs in supervised learning.
+   - Model: Mathematical representation mapping inputs to outputs.
+   - Training: Process of fitting the model to data.
+   - Evaluation: Measuring model performance using metrics (accuracy, precision, recall, F1-score).
+
+4. Common Algorithms:
+   - Linear Regression
+   - Logistic Regression
+   - Decision Trees
+   - Random Forests
+   - Support Vector Machines (SVM)
+   - k-Nearest Neighbors (k-NN)
+   - Neural Networks
+
+5. Applications:
+   - Image recognition
+   - Natural language processing (NLP)
+   - Fraud detection
+   - Recommendation systems
+   - Predictive analytics
+
+6. Challenges:
+   - Overfitting vs. underfitting
+   - Data quality and preprocessing
+   - Model interpretability
+   - Scalability and deployment
+
+Summary:
+Machine Learning is about building systems that learn from data. By mastering algorithms, evaluation techniques, and deployment strategies, ML engineers can create solutions that solve real-world problems across industries.

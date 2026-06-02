@@ -1,0 +1,39 @@
+Retrieval-Augmented Generation (RAG) Overview
+
+1. Definition:
+   Retrieval-Augmented Generation (RAG) is an advanced AI technique that combines large language models (LLMs) with external knowledge retrieval systems. It enables models to generate responses grounded in up-to-date, domain-specific information rather than relying solely on pre-trained parameters.
+
+2. Core Idea:
+   - Retrieval: Fetch relevant documents or data from an external source (e.g., vector database, search engine).
+   - Generation: Use the retrieved context to produce accurate, coherent, and context-aware responses.
+
+3. Key Components:
+   - Embeddings: Numerical representations of text used for similarity search.
+   - Vector Database: Stores embeddings for efficient retrieval (e.g., FAISS, Pinecone, Weaviate).
+   - Retriever: Finds the most relevant context for a query.
+   - Generator: LLM that produces the final answer using both query and retrieved context.
+
+4. Workflow:
+   - User query → Convert to embedding → Retrieve top‑k relevant documents → Pass query + documents to LLM → Generate grounded response.
+
+5. Applications:
+   - Enterprise chatbots with company knowledge bases
+   - Question answering systems
+   - Legal, medical, and financial assistants
+   - Research tools for summarizing large document sets
+   - Customer support automation
+
+6. Advantages:
+   - Provides factual, up-to-date answers
+   - Reduces hallucinations in LLM outputs
+   - Scales to large knowledge bases
+   - Flexible integration with APIs and databases
+
+7. Challenges:
+   - Quality of retrieval affects accuracy
+   - Latency due to retrieval + generation steps
+   - Requires careful system design (indexing, caching, reranking)
+   - Balancing relevance vs. diversity of retrieved documents
+
+Summary:
+RAG bridges the gap between static language models and dynamic knowledge sources. By combining retrieval with generation, it creates AI systems that are both intelligent and informed, making them highly valuable for real-world applications.
