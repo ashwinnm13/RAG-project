@@ -5,3 +5,7 @@ pypdf
 pymupdf
 unstructured
 langchain-unstructured
+
+sentence-transformers
+faiss-cpu
+chromadb
